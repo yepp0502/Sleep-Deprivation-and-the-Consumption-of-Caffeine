@@ -1,0 +1,2951 @@
+<!DOCTYPE html>
+    <head>
+        <title>Sleep Deprivation and the Consumption of Caffeine</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="catalog.css">
+        
+    </head>
+    <body>
+        <div id="header">
+            <nav>
+                <img src="images/sdcc_logo.png" id="logo">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="catalog.html">Catalog</a></li>
+                    <li id="nh-btn"><a href="action.html">Lifestyle</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="body1">
+            <img src="images/blob copy.png" id="blob1">
+            <a href="The Effects of Sleep Deprivation and the Consumption of Caffeine 
+            on High School Students' Academic Performance in Surabaya, Indonesia.pdf" download>
+                <img src="images/paper.png" id="rpaper">
+            </a>
+            <h1 id="title">Catalog</h1>
+        </div>
+        <div id="body2">
+            <div id="box1">
+                <h3>Calculation</h3>
+                <div id="input-fields">
+                    <div id="input-field1">
+                        <p>Age: </p>
+                        <input id="age" type="text" value="">
+                    </div>
+                    <div id="input-field2">
+                        <p>Hours of Sleep: </p>
+                        <input id="sleep" type="text" value="">
+                    </div>
+                    <div id="input-field3">
+                        <p>Amount of Caffeine Consumed: </p>
+                        <input id="caffeine" type="text" value="">
+                    </div>
+                </div>
+                <button id="submit-btn" onclick="submit()">Submit</button>
+            </div>
+            <div id="box2">
+                <h3>Status: </h3>
+                <h4 id="status">--</h4>
+            </div>
+            <div id="box3">
+                <div id="searchbox">
+                    <input placeholder="Search the name of the drink" onkeyup="searchFilter()" id="search">
+                </div>
+                <div id="result-box">
+                    <ul id="menu">
+                        <!--Pike Place Brewed Coffee-->
+                        <li>
+                            <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                            <div class="coffee-info">
+                                <h4>Pike Place Brewed Coffee</h4>
+                                <h5>Starbucks</h5>
+                                <h6>Size: Short</h6>
+                                <h6>Caffeine: 155 mg</h6>
+                            </div>
+                            <div class="increment-btns">
+                                <button class="btn-left" onclick="decrement1()">-</button>
+                                <h4 id="count-el1-1">0</h4>
+                                <button class="btn-right" onclick="increment1()">+</button>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                            <div class="coffee-info">
+                                <h4>Pike Place Brewed Coffee</h4>
+                                <h5>Starbucks</h5>
+                                <h6>Size: Tall</h6>
+                                <h6>Caffeine: 235 mg</h6>
+                            </div>
+                            <div class="increment-btns">
+                                <button class="btn-left" onclick="decrement2()">-</button>
+                                <h4 id="count-el1-2">0</h4>
+                                <button class="btn-right" onclick="increment2()">+</button>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                            <div class="coffee-info">
+                                <h4>Pike Place Brewed Coffee</h4>
+                                <h5>Starbucks</h5>
+                                <h6>Size: Grande</h6>
+                                <h6>Caffeine: 310 mg</h6>
+                            </div>
+                            <div class="increment-btns">
+                                <button class="btn-left" onclick="decrement3()">-</button>
+                                <h4 id="count-el1-3">0</h4>
+                                <button class="btn-right" onclick="increment3()">+</button>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                            <div class="coffee-info">
+                                <h4>Pike Place Brewed Coffee</h4>
+                                <h5>Starbucks</h5>
+                                <h6>Size: Venti</h6>
+                                <h6>Caffeine: 410 mg</h6>
+                            </div>
+                            <div class="increment-btns">
+                                <button class="btn-left" onclick="decrement4()">-</button>
+                                <h4 id="count-el1-4">0</h4>
+                                <button class="btn-right" onclick="increment4()">+</button>
+                            </div>
+                        </li>
+                        <!--Blonde Roast-->
+                        <li>
+                            <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                            <div class="coffee-info">
+                                <h4>Blonde Roast</h4>
+                                <h5>Starbucks</h5>
+                                <h6>Size: Short</h6>
+                                <h6>Caffeine: 180 mg</h6>
+                            </div>
+                            <div class="increment-btns">
+                                <button class="btn-left" onclick="decrement5()">-</button>
+                                <h4 id="count-el2-1">0</h4>
+                                <button class="btn-right" onclick="increment5()">+</button>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                            <div class="coffee-info">
+                                <h4>Blonde Roast</h4>
+                                <h5>Starbucks</h5>
+                                <h6>Size: Tall</h6>
+                                <h6>Caffeine: 270 mg</h6>
+                            </div>
+                            <div class="increment-btns">
+                                <button class="btn-left" onclick="decrement6()">-</button>
+                                <h4 id="count-el2-2">0</h4>
+                                <button class="btn-right" onclick="increment6()">+</button>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                            <div class="coffee-info">
+                                <h4>Blonde Roast</h4>
+                                <h5>Starbucks</h5>
+                                <h6>Size: Grande</h6>
+                                <h6>Caffeine: 360 mg</h6>
+                            </div>
+                            <div class="increment-btns">
+                                <button class="btn-left" onclick="decrement7()">-</button>
+                                <h4 id="count-el2-3">0</h4>
+                                <button class="btn-right" onclick="increment7()">+</button>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                            <div class="coffee-info">
+                                <h4>Blonde Roast</h4>
+                                <h5>Starbucks</h5>
+                                <h6>Size: Venti</h6>
+                                <h6>Caffeine: 475 mg</h6>
+                            </div>
+                            <div class="increment-btns">
+                                <button class="btn-left" onclick="decrement8()">-</button>
+                                <h4 id="count-el2-4">0</h4>
+                                <button class="btn-right" onclick="increment8()">+</button>
+                            </div>
+                        </li>
+                        <!--Featured Dark Roast-->
+                        <li>
+                            <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                            <div class="coffee-info">
+                                <h4>Featured Dark Roast</h4>
+                                <h5>Starbucks</h5>
+                                <h6>Size: Short</h6>
+                                <h6>Caffeine: 130 mg</h6>
+                            </div>
+                            <div class="increment-btns">
+                                <button class="btn-left" onclick="decrement9()">-</button>
+                                <h4 id="count-el3-1">0</h4>
+                                <button class="btn-right" onclick="increment9()">+</button>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                            <div class="coffee-info">
+                                <h4>Featured Dark Roast</h4>
+                                <h5>Starbucks</h5>
+                                <h6>Size: Tall</h6>
+                                <h6>Caffeine: 195 mg</h6>
+                            </div>
+                            <div class="increment-btns">
+                                <button class="btn-left" onclick="decrement10()">-</button>
+                                <h4 id="count-el3-2">0</h4>
+                                <button class="btn-right" onclick="increment10()">+</button>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                            <div class="coffee-info">
+                                <h4>Featured Dark Roast</h4>
+                                <h5>Starbucks</h5>
+                                <h6>Size: Grande</h6>
+                                <h6>Caffeine: 260 mg</h6>
+                            </div>
+                            <div class="increment-btns">
+                                <button class="btn-left" onclick="decrement11()">-</button>
+                                <h4 id="count-el3-3">0</h4>
+                                <button class="btn-right" onclick="increment11()">+</button>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                            <div class="coffee-info">
+                                <h4>Featured Dark Roast</h4>
+                                <h5>Starbucks</h5>
+                                <h6>Size: Venti</h6>
+                                <h6>Caffeine: 340 mg</h6>
+                            </div>
+                            <div class="increment-btns">
+                                <button class="btn-left" onclick="decrement12()">-</button>
+                                <h4 id="count-el3-4">0</h4>
+                                <button class="btn-right" onclick="increment12()">+</button>
+                            </div>
+                        </li>
+                        <!--Brewed Decaf Coffee-->
+                        <li>
+                            <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                            <div class="coffee-info">
+                                <h4>Brewed Decaf Coffee</h4>
+                                <h5>Starbucks</h5>
+                                <h6>Size: Short</h6>
+                                <h6>Caffeine: 15 mg</h6>
+                            </div>
+                            <div class="increment-btns">
+                                <button class="btn-left" onclick="decrement13()">-</button>
+                                <h4 id="count-el4-1">0</h4>
+                                <button class="btn-right" onclick="increment13()">+</button>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                            <div class="coffee-info">
+                                <h4>Brewed Decaf Coffee</h4>
+                                <h5>Starbucks</h5>
+                                <h6>Size: Tall</h6>
+                                <h6>Caffeine: 20 mg</h6>
+                            </div>
+                            <div class="increment-btns">
+                                <button class="btn-left" onclick="decrement14()">-</button>
+                                <h4 id="count-el4-2">0</h4>
+                                <button class="btn-right" onclick="increment14()">+</button>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                            <div class="coffee-info">
+                                <h4>Brewed Decaf Coffee</h4>
+                                <h5>Starbucks</h5>
+                                <h6>Size: Grande</h6>
+                                <h6>Caffeine: 25 mg</h6>
+                            </div>
+                            <div class="increment-btns">
+                                <button class="btn-left" onclick="decrement15()">-</button>
+                                <h4 id="count-el4-3">0</h4>
+                                <button class="btn-right" onclick="increment15()">+</button>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                            <div class="coffee-info">
+                                <h4>Brewed Decaf Coffee</h4>
+                                <h5>Starbucks</h5>
+                                <h6>Size: Venti</h6>
+                                <h6>Caffeine: 30 mg</h6>
+                            </div>
+                            <div class="increment-btns">
+                                <button class="btn-left" onclick="decrement16()">-</button>
+                                <h4 id="count-el4-4">0</h4>
+                                <button class="btn-right" onclick="increment16()">+</button>
+                            </div>
+                        </li>
+                        <!--Caffe Americano-->
+                        <li>
+                            <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                            <div class="coffee-info">
+                                <h4>Caffe Americano</h4>
+                                <h5>Starbucks</h5>
+                                <h6>Size: Short</h6>
+                                <h6>Caffeine: 75 mg</h6>
+                            </div>
+                            <div class="increment-btns">
+                                <button class="btn-left" onclick="decrement17()">-</button>
+                                <h4 id="count-el5-1">0</h4>
+                                <button class="btn-right" onclick="increment17()">+</button>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                            <div class="coffee-info">
+                                <h4>Caffe Americano</h4>
+                                <h5>Starbucks</h5>
+                                <h6>Size: Tall</h6>
+                                <h6>Caffeine: 150 mg</h6>
+                            </div>
+                            <div class="increment-btns">
+                                <button class="btn-left" onclick="decrement18()">-</button>
+                                <h4 id="count-el5-2">0</h4>
+                                <button class="btn-right" onclick="increment18()">+</button>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                            <div class="coffee-info">
+                                <h4>Caffe Americano</h4>
+                                <h5>Starbucks</h5>
+                                <h6>Size: Grande</h6>
+                                <h6>Caffeine: 225 mg</h6>
+                            </div>
+                            <div class="increment-btns">
+                                <button class="btn-left" onclick="decrement19()">-</button>
+                                <h4 id="count-el5-3">0</h4>
+                                <button class="btn-right" onclick="increment19()">+</button>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                            <div class="coffee-info">
+                                <h4>Caffe Americano</h4>
+                                <h5>Starbucks</h5>
+                                <h6>Size: Venti</h6>
+                                <h6>Caffeine: 300 mg</h6>
+                            </div>
+                            <div class="increment-btns">
+                                <button class="btn-left" onclick="decrement20()">-</button>
+                                <h4 id="count-el5-4">0</h4>
+                                <button class="btn-right" onclick="increment20()">+</button>
+                            </div>
+                        </li>
+                        <!--Blonde Caffe Americano-->
+                        <li>
+                            <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                            <div class="coffee-info">
+                                <h4>Blonde Caffe Americano</h4>
+                                <h5>Starbucks</h5>
+                                <h6>Size: Short</h6>
+                                <h6>Caffeine: 85 mg</h6>
+                            </div>
+                            <div class="increment-btns">
+                                <button class="btn-left" onclick="decrement21()">-</button>
+                                <h4 id="count-el6-1">0</h4>
+                                <button class="btn-right" onclick="increment21()">+</button>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                            <div class="coffee-info">
+                                <h4>Blonde Caffe Americano</h4>
+                                <h5>Starbucks</h5>
+                                <h6>Size: Tall</h6>
+                                <h6>Caffeine: 170 mg</h6>
+                            </div>
+                            <div class="increment-btns">
+                                <button class="btn-left" onclick="decrement22()">-</button>
+                                <h4 id="count-el6-2">0</h4>
+                                <button class="btn-right" onclick="increment22()">+</button>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                            <div class="coffee-info">
+                                <h4>Blonde Caffe Americano</h4>
+                                <h5>Starbucks</h5>
+                                <h6>Size: Grande</h6>
+                                <h6>Caffeine: 255 mg</h6>
+                            </div>
+                            <div class="increment-btns">
+                                <button class="btn-left" onclick="decrement23()">-</button>
+                                <h4 id="count-el6-3">0</h4>
+                                <button class="btn-right" onclick="increment23()">+</button>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                            <div class="coffee-info">
+                                <h4>Blonde Caffe Americano</h4>
+                                <h5>Starbucks</h5>
+                                <h6>Size: Venti</h6>
+                                <h6>Caffeine: 340 mg</h6>
+                            </div>
+                            <div class="increment-btns">
+                                <button class="btn-left" onclick="decrement24()">-</button>
+                                <h4 id="count-el6-4">0</h4>
+                                <button class="btn-right" onclick="increment24()">+</button>
+                            </div>
+                        </li>
+                        <!--Caffe Latte-->
+                        <li>
+                            <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                            <div class="coffee-info">
+                                <h4>Caffe Latte</h4>
+                                <h5>Starbucks</h5>
+                                <h6>Size: Short/Tall</h6>
+                                <h6>Caffeine: 75 mg</h6>
+                            </div>
+                            <div class="increment-btns">
+                                <button class="btn-left" onclick="decrement25()">-</button>
+                                <h4 id="count-el7-1">0</h4>
+                                <button class="btn-right" onclick="increment25()">+</button>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                            <div class="coffee-info">
+                                <h4>Caffe Latte</h4>
+                                <h5>Starbucks</h5>
+                                <h6>Size: Grande/Venti</h6>
+                                <h6>Caffeine: 150 mg</h6>
+                            </div>
+                            <div class="increment-btns">
+                                <button class="btn-left" onclick="decrement26()">-</button>
+                                <h4 id="count-el7-2">0</h4>
+                                <button class="btn-right" onclick="increment26()">+</button>
+                            </div>
+                        </li>
+                        <!--Blonde Caffe Latte-->
+                        <li>
+                            <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                            <div class="coffee-info">
+                                <h4>Blonde Caffe Latte</h4>
+                                <h5>Starbucks</h5>
+                                <h6>Size: Short/Tall</h6>
+                                <h6>Caffeine: 85 mg</h6>
+                            </div>
+                            <div class="increment-btns">
+                                <button class="btn-left" onclick="decrement27()">-</button>
+                                <h4 id="count-el8-1">0</h4>
+                                <button class="btn-right" onclick="increment27()">+</button>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                            <div class="coffee-info">
+                                <h4>Blonde Caffe Latte</h4>
+                                <h5>Starbucks</h5>
+                                <h6>Size: Grande/Venti</h6>
+                                <h6>Caffeine: 170 mg</h6>
+                            </div>
+                            <div class="increment-btns">
+                                <button class="btn-left" onclick="decrement28()">-</button>
+                                <h4 id="count-el8-2">0</h4>
+                                <button class="btn-right" onclick="increment28()">+</button>
+                            </div>
+                        </li>
+                        <!--Cordusio Mocha-->
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Cordusio Mocha</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Short/Tall</h6>
+                            <h6>Caffeine: 155 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement29()">-</button>
+                                <h4 id="count-el9-1">0</h4>
+                                <button class="btn-right" onclick="increment29()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Cordusio Mocha</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Grande</h6>
+                            <h6>Caffeine: 315 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement30()">-</button>
+                            <h4 id="count-el9-2">0</h4>
+                            <button class="btn-right" onclick="increment30()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Cordusio Mocha</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Venti</h6>
+                            <h6>Caffeine: 320 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement31()">-</button>
+                            <h4 id="count-el9-3">0</h4>
+                            <button class="btn-right" onclick="increment31()">+</button>
+                        </div>
+                    </li>
+                    <!--Reserve Latte-->
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Reserve Latte</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Short/Tall/Grande</h6>
+                            <h6>Caffeine: 135 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement32()">-</button>
+                            <h4 id="count-el10-1">0</h4>
+                            <button class="btn-right" onclick="increment32()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Reserve Latte</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Venti</h6>
+                            <h6>Caffeine: 265 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement33()">-</button>
+                            <h4 id="count-el10-2">0</h4>
+                            <button class="btn-right" onclick="increment33()">+</button>
+                        </div>
+                    </li>
+                    <!--Caffe Mocha-->
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Caffe Mocha</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Short</h6>
+                            <h6>Caffeine: 90 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement34()">-</button>
+                            <h4 id="count-el11-1">0</h4>
+                            <button class="btn-right" onclick="increment34()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Caffe Mocha</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Tall</h6>
+                            <h6>Caffeine: 95 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement35()">-</button>
+                            <h4 id="count-el11-2">0</h4>
+                            <button class="btn-right" onclick="increment35()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Caffe Mocha</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Grande</h6>
+                            <h6>Caffeine: 175 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement36()">-</button>
+                            <h4 id="count-el11-3">0</h4>
+                            <button class="btn-right" onclick="increment36()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Caffe Mocha</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Venti</h6>
+                            <h6>Caffeine: 185 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement37()">-</button>
+                            <h4 id="count-el11-4">0</h4>
+                            <button class="btn-right" onclick="increment37()">+</button>
+                        </div>
+                    </li>
+                    <!--Cappuccino-->
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Cappuccino</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Short/Tall</h6>
+                            <h6>Caffeine: 75 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement38()">-</button>
+                            <h4 id="count-el12-1">0</h4>
+                            <button class="btn-right" onclick="increment38()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Cappuccino</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Grande/Venti</h6>
+                            <h6>Caffeine: 150 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement39()">-</button>
+                            <h4 id="count-el12-2">0</h4>
+                            <button class="btn-right" onclick="increment39()">+</button>
+                        </div>
+                    </li>
+                    <!--Blonde Cappuccino-->
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Blonde Cappuccino</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Short/Tall</h6>
+                            <h6>Caffeine: 85 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement40()">-</button>
+                            <h4 id="count-el13-1">0</h4>
+                            <button class="btn-right" onclick="increment40()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Blonde Cappuccino</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Grande/Venti</h6>
+                            <h6>Caffeine: 170 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement41()">-</button>
+                            <h4 id="count-el13-2">0</h4>
+                            <button class="btn-right" onclick="increment41()">+</button>
+                        </div>
+                    </li>
+                    <!--Flat White-->
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Flat White</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Short/Tall</h6>
+                            <h6>Caffeine: 130 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement42()">-</button>
+                            <h4 id="count-el14-1">0</h4>
+                            <button class="btn-right" onclick="increment42()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Flat White</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Grande/Venti</h6>
+                            <h6>Caffeine: 195 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement43()">-</button>
+                            <h4 id="count-el14-2">0</h4>
+                            <button class="btn-right" onclick="increment43()">+</button>
+                        </div>
+                    </li>
+                    <!--Blonde Flat White-->
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Blonde Flat White</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Short/Tall</h6>
+                            <h6>Caffeine: 150 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement44()">-</button>
+                            <h4 id="count-el15-1">0</h4>
+                            <button class="btn-right" onclick="increment44()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Blonde Flat White</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Grande/Venti</h6>
+                            <h6>Caffeine: 225 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement45()">-</button>
+                            <h4 id="count-el15-2">0</h4>
+                            <button class="btn-right" onclick="increment45()">+</button>
+                        </div>
+                    </li>
+                    <!--Caramel Macchiato-->
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Caramel Macchiato</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Short/Tall</h6>
+                            <h6>Caffeine: 75 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement46()">-</button>
+                            <h4 id="count-el16-1">0</h4>
+                            <button class="btn-right" onclick="increment46()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Caramel Macchiato</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Grande/Venti</h6>
+                            <h6>Caffeine: 150 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement47()">-</button>
+                            <h4 id="count-el16-2">0</h4>
+                            <button class="btn-right" onclick="increment47()">+</button>
+                        </div>
+                    </li>
+                    <!--Caramel Flan Latte-->
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Caramel Flan Latte</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Short/Tall</h6>
+                            <h6>Caffeine: 75 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement48()">-</button>
+                            <h4 id="count-el17-1">0</h4>
+                            <button class="btn-right" onclick="increment48()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Caramel Flan Latte</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Grande/Venti</h6>
+                            <h6>Caffeine: 150 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement49()">-</button>
+                            <h4 id="count-el17-2">0</h4>
+                            <button class="btn-right" onclick="increment49()">+</button>
+                        </div>
+                    </li>
+                    <!--Molten Chocolate Latte-->
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Molten Chocolate Latte</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Short</h6>
+                            <h6>Caffeine: 95 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement50()">-</button>
+                            <h4 id="count-el18-1">0</h4>
+                            <button class="btn-right" onclick="increment50()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Molten Chocolate Latte</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Tall</h6>
+                            <h6>Caffeine: 100 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement51()">-</button>
+                            <h4 id="count-el18-2">0</h4>
+                            <button class="btn-right" onclick="increment51()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Molten Chocolate Latte</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Grande</h6>
+                            <h6>Caffeine: 185 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement52()">-</button>
+                            <h4 id="count-el18-3">0</h4>
+                            <button class="btn-right" onclick="increment52()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Molten Chocolate Latte</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Venti</h6>
+                            <h6>Caffeine: 195 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement53()">-</button>
+                            <h4 id="count-el18-4">0</h4>
+                            <button class="btn-right" onclick="increment53()">+</button>
+                        </div>
+                    </li>
+                    <!--Espresso-->
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Espresso</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Tall</h6>
+                            <h6>Caffeine: 75 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement54()">-</button>
+                            <h4 id="count-el19-1">0</h4>
+                            <button class="btn-right" onclick="increment54()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Espresso</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Grande</h6>
+                            <h6>Caffeine: 150 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement55()">-</button>
+                            <h4 id="count-el19-2">0</h4>
+                            <button class="btn-right" onclick="increment55()">+</button>
+                        </div>
+                    </li>
+                    <!--Blonde Espresso-->
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Blonde Espresso</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Tall</h6>
+                            <h6>Caffeine: 85 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement56()">-</button>
+                            <h4 id="count-el20-1">0</h4>
+                            <button class="btn-right" onclick="increment56()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Blonde Espresso</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Grande</h6>
+                            <h6>Caffeine: 170 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement57()">-</button>
+                            <h4 id="count-el20-2">0</h4>
+                            <button class="btn-right" onclick="increment57()">+</button>
+                        </div>
+                    </li>
+                    <!--Espresso Macchiato-->
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Espresso Macchiato</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Tall</h6>
+                            <h6>Caffeine: 75 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement58()">-</button>
+                            <h4 id="count-el21-1">0</h4>
+                            <button class="btn-right" onclick="increment58()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Espresso Macchiato</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Grande</h6>
+                            <h6>Caffeine: 150 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement59()">-</button>
+                            <h4 id="count-el21-2">0</h4>
+                            <button class="btn-right" onclick="increment59()">+</button>
+                        </div>
+                    </li>
+                    <!--Espresso con Panna-->
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Espresso con Panna</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Tall</h6>
+                            <h6>Caffeine: 75 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement60()">-</button>
+                            <h4 id="count-el22-1">0</h4>
+                            <button class="btn-right" onclick="increment60()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Espresso con Panna</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Grande</h6>
+                            <h6>Caffeine: 150 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement61()">-</button>
+                            <h4 id="count-el22-2">0</h4>
+                            <button class="btn-right" onclick="increment61()">+</button>
+                        </div>
+                    </li>
+                    <!--Hazelnut Macchiato-->
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Hazelnut Macchiato</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Short/Tall</h6>
+                            <h6>Caffeine: 75 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement62()">-</button>
+                            <h4 id="count-el23-1">0</h4>
+                            <button class="btn-right" onclick="increment62()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Hazelnut Macchiato</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Grande/Venti</h6>
+                            <h6>Caffeine: 150 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement63()">-</button>
+                            <h4 id="count-el23-2">0</h4>
+                            <button class="btn-right" onclick="increment63()">+</button>
+                        </div>
+                    </li>
+                    <!--Cinnamon Dolce Latte-->
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Cinnamon Dolce Latte</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Short/Tall</h6>
+                            <h6>Caffeine: 75 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement64()">-</button>
+                            <h4 id="count-el24-1">0</h4>
+                            <button class="btn-right" onclick="increment64()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Cinnamon Dolce Latte</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Grande/Venti</h6>
+                            <h6>Caffeine: 150 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement65()">-</button>
+                            <h4 id="count-el24-2">0</h4>
+                            <button class="btn-right" onclick="increment65()">+</button>
+                        </div>
+                    </li>
+                    <!--Pumpkin Spice-->
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Pumpkin Spice</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Short/Tall</h6>
+                            <h6>Caffeine: 75 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement66()">-</button>
+                            <h4 id="count-el25-1">0</h4>
+                            <button class="btn-right" onclick="increment66()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Pumpkin Spice</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Grande/Venti</h6>
+                            <h6>Caffeine: 150 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement67()">-</button>
+                            <h4 id="count-el25-2">0</h4>
+                            <button class="btn-right" onclick="increment67()">+</button>
+                        </div>
+                    </li>
+                    <!--Tiramisu Latte-->
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Tiramisu Latte</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Short/Tall</h6>
+                            <h6>Caffeine: 75 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement68()">-</button>
+                            <h4 id="count-el26-1">0</h4>
+                            <button class="btn-right" onclick="increment68()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Tiramisu Latte</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Grande/Venti</h6>
+                            <h6>Caffeine: 150 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement69()">-</button>
+                            <h4 id="count-el26-2">0</h4>
+                            <button class="btn-right" onclick="increment69()">+</button>
+                        </div>
+                    </li>
+                    <!--Smoked Butterscotch Latte-->
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Smoked Butterscotch Latte</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Short/Tall</h6>
+                            <h6>Caffeine: 75 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement70()">-</button>
+                            <h4 id="count-el27-1">0</h4>
+                            <button class="btn-right" onclick="increment70()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Smoked Butterscotch Latte</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Grande/Venti</h6>
+                            <h6>Caffeine: 150 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement71()">-</button>
+                            <h4 id="count-el27-2">0</h4>
+                            <button class="btn-right" onclick="increment71()">+</button>
+                        </div>
+                    </li>
+                    <!--Toasted Graham Latte-->
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Toasted Graham Latte</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Short/Tall</h6>
+                            <h6>Caffeine: 75 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement72()">-</button>
+                            <h4 id="count-el28-1">0</h4>
+                            <button class="btn-right" onclick="increment72()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Toasted Graham Latte</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Grande/Venti</h6>
+                            <h6>Caffeine: 150 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement73()">-</button>
+                            <h4 id="count-el28-2">0</h4>
+                            <button class="btn-right" onclick="increment73()">+</button>
+                        </div>
+                    </li>
+                    <!--Peppermint Mocha-->
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Peppermint Mocha</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Short/Tall</h6>
+                            <h6>Caffeine: 75 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement74()">-</button>
+                            <h4 id="count-el29-1">0</h4>
+                            <button class="btn-right" onclick="increment74()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Peppermint Mocha</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Grande/Venti</h6>
+                            <h6>Caffeine: 150 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement75()">-</button>
+                            <h4 id="count-el29-2">0</h4>
+                            <button class="btn-right" onclick="increment75()">+</button>
+                        </div>
+                    </li>
+                    <!--White Chocolate Mocha-->
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>White Chocolate Mocha</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Short/Tall</h6>
+                            <h6>Caffeine: 75 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement76()">-</button>
+                            <h4 id="count-el30-1">0</h4>
+                            <button class="btn-right" onclick="increment76()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>White Chocolate Mocha</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Grande/Venti</h6>
+                            <h6>Caffeine: 150 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement77()">-</button>
+                            <h4 id="count-el30-2">0</h4>
+                            <button class="btn-right" onclick="increment77()">+</button>
+                        </div>
+                    </li>
+                    <!--Salted Caramel Mocha-->
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Salted Caramel Mocha</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Short</h6>
+                            <h6>Caffeine: 90 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement78()">-</button>
+                            <h4 id="count-el31-1">0</h4>
+                            <button class="btn-right" onclick="increment78()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Salted Caramel Mocha</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Tall</h6>
+                            <h6>Caffeine: 95 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement79()">-</button>
+                            <h4 id="count-el31-2">0</h4>
+                            <button class="btn-right" onclick="increment79()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Salted Caramel Mocha</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Grande</h6>
+                            <h6>Caffeine: 175 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement80()">-</button>
+                            <h4 id="count-el31-3">0</h4>
+                            <button class="btn-right" onclick="increment80()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Salted Caramel Mocha</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Venti</h6>
+                            <h6>Caffeine: 185 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement81()">-</button>
+                            <h4 id="count-el31-4">0</h4>
+                            <button class="btn-right" onclick="increment81()">+</button>
+                        </div>
+                    </li>
+                    <!--Hot Chocolate-->
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Hot Chocolate</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Short</h6>
+                            <h6>Caffeine: 15 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement82()">-</button>
+                            <h4 id="count-el32-1">0</h4>
+                            <button class="btn-right" onclick="increment82()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Hot Chocolate</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Tall</h6>
+                            <h6>Caffeine: 20 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement83()">-</button>
+                            <h4 id="count-el32-2">0</h4>
+                            <button class="btn-right" onclick="increment83()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Hot Chocolate</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Grande</h6>
+                            <h6>Caffeine: 25 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement84()">-</button>
+                            <h4 id="count-el32-3">0</h4>
+                            <button class="btn-right" onclick="increment84()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Hot Chocolate</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Venti</h6>
+                            <h6>Caffeine: 30 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement85()">-</button>
+                            <h4 id="count-el32-4">0</h4>
+                            <button class="btn-right" onclick="increment85()">+</button>
+                        </div>
+                    </li>
+                    <!--Caffe Misto-->
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Caffe Misto</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Short</h6>
+                            <h6>Caffeine: 75 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement86()">-</button>
+                            <h4 id="count-el33-1">0</h4>
+                            <button class="btn-right" onclick="increment86()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Caffe Misto</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Tall</h6>
+                            <h6>Caffeine: 115 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement87()">-</button>
+                            <h4 id="count-el33-2">0</h4>
+                            <button class="btn-right" onclick="increment87()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Caffe Misto</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Grande</h6>
+                            <h6>Caffeine: 150 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement88()">-</button>
+                            <h4 id="count-el33-3">0</h4>
+                            <button class="btn-right" onclick="increment88()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Caffe Misto</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Venti</h6>
+                            <h6>Caffeine: 195 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement89()">-</button>
+                            <h4 id="count-el33-4">0</h4>
+                            <button class="btn-right" onclick="increment89()">+</button>
+                        </div>
+                    </li>
+                    <!--Oprah Chai Tea Latte-->
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Oprah Chai Tea Latte</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Short</h6>
+                            <h6>Caffeine: 25 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement90()">-</button>
+                            <h4 id="count-el34-1">0</h4>
+                            <button class="btn-right" onclick="increment90()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Oprah Chai Tea Latte</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Tall</h6>
+                            <h6>Caffeine: 40 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement91()">-</button>
+                            <h4 id="count-el34-2">0</h4>
+                            <button class="btn-right" onclick="increment91()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Oprah Chai Tea Latte</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Grande</h6>
+                            <h6>Caffeine: 50 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement92()">-</button>
+                            <h4 id="count-el34-3">0</h4>
+                            <button class="btn-right" onclick="increment92()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Oprah Chai Tea Latte</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Venti</h6>
+                            <h6>Caffeine: 65 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement93()">-</button>
+                            <h4 id="count-el34-4">0</h4>
+                            <button class="btn-right" onclick="increment93()">+</button>
+                        </div>
+                    </li>
+                    <!--Classic Chai Tea Latte-->
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Classic Chai Tea Latte</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Short</h6>
+                            <h6>Caffeine: 50 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement94()">-</button>
+                            <h4 id="count-el35-1">0</h4>
+                            <button class="btn-right" onclick="increment94()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Classic Chai Tea Latte</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Tall</h6>
+                            <h6>Caffeine: 70 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement95()">-</button>
+                            <h4 id="count-el35-2">0</h4>
+                            <button class="btn-right" onclick="increment95()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Classic Chai Tea Latte</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Grande</h6>
+                            <h6>Caffeine: 95 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement96()">-</button>
+                            <h4 id="count-el35-3">0</h4>
+                            <button class="btn-right" onclick="increment96()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Classic Chai Tea Latte</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Venti</h6>
+                            <h6>Caffeine: 120 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement97()">-</button>
+                            <h4 id="count-el35-4">0</h4>
+                            <button class="btn-right" onclick="increment97()">+</button>
+                        </div>
+                    </li>
+                    <!--Teavana Green Tea Latte-->
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Teavana Green Tea Latte</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Short</h6>
+                            <h6>Caffeine: 25 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement98()">-</button>
+                            <h4 id="count-el36-1">0</h4>
+                            <button class="btn-right" onclick="increment98()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Teavana Green Tea Latte</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Tall</h6>
+                            <h6>Caffeine: 55 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement99()">-</button>
+                            <h4 id="count-el36-2">0</h4>
+                            <button class="btn-right" onclick="increment99()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Teavana Green Tea Latte</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Grande</h6>
+                            <h6>Caffeine: 80 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement100()">-</button>
+                            <h4 id="count-el36-3">0</h4>
+                            <button class="btn-right" onclick="increment100()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Teavana Green Tea Latte</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Venti</h6>
+                            <h6>Caffeine: 110 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement101()">-</button>
+                            <h4 id="count-el36-4">0</h4>
+                            <button class="btn-right" onclick="increment101()">+</button>
+                        </div>
+                    </li>
+                    <!--Teavana Early Grey-->
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Teavana Early Grey</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Short/Tall</h6>
+                            <h6>Caffeine: 40 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement102()">-</button>
+                            <h4 id="count-el37-1">0</h4>
+                            <button class="btn-right" onclick="increment102()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Teavana Early Grey</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Grande/Venti</h6>
+                            <h6>Caffeine: 80 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement103()">-</button>
+                            <h4 id="count-el37-2">0</h4>
+                            <button class="btn-right" onclick="increment103()">+</button>
+                        </div>
+                    </li>
+                    <!--Teavana Royal English Breakfast-->
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Teavana Royal English Breakfast</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Short/Tall</h6>
+                            <h6>Caffeine: 40 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement104()">-</button>
+                            <h4 id="count-el38-1">0</h4>
+                            <button class="btn-right" onclick="increment104()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Teavana Royal English Breakfast</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Grande/Venti</h6>
+                            <h6>Caffeine: 80 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement105()">-</button>
+                            <h4 id="count-el38-2">0</h4>
+                            <button class="btn-right" onclick="increment105()">+</button>
+                        </div>
+                    </li>
+                    <!--Teavana Emperor's Cloud & Mist-->
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Teavana Emperor's Cloud & Mist</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Short/Tall</h6>
+                            <h6>Caffeine: 0-15 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement106()">-</button>
+                            <h4 id="count-el39-1">0</h4>
+                            <button class="btn-right" onclick="increment106()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Teavana Emperor's Cloud & Mist</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Grande/Venti</h6>
+                            <h6>Caffeine: 15-25 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement107()">-</button>
+                            <h4 id="count-el39-2">0</h4>
+                            <button class="btn-right" onclick="increment107()">+</button>
+                        </div>
+                    </li>
+                    <!--Teavana Jade Citrus Mint-->
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Teavana Jade Citrus Mint</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Short/Tall</h6>
+                            <h6>Caffeine: 15-25 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement108()">-</button>
+                            <h4 id="count-el40-1">0</h4>
+                            <button class="btn-right" onclick="increment108()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Teavana Jade Citrus Mint</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Grande/Venti</h6>
+                            <h6>Caffeine: 40 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement109()">-</button>
+                            <h4 id="count-el40-2">0</h4>
+                            <button class="btn-right" onclick="increment109()">+</button>
+                        </div>
+                    </li>
+                    <!--Teavana Oprah Chai Brewed Tea-->
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Teavana Oprah Chai Brewed Tea</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Short/Tall</h6>
+                            <h6>Caffeine: 15-25 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement110()">-</button>
+                            <h4 id="count-el41-1">0</h4>
+                            <button class="btn-right" onclick="increment110()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Teavana Oprah Chai Brewed Tea</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Grande/Venti</h6>
+                            <h6>Caffeine: 40 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement111()">-</button>
+                            <h4 id="count-el41-2">0</h4>
+                            <button class="btn-right" onclick="increment111()">+</button>
+                        </div>
+                    </li>
+                    <!--Defense Wellness White Tea-->
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Defense Wellness White Tea</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Short/Tall</h6>
+                            <h6>Caffeine: 25 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement112()">-</button>
+                            <h4 id="count-el42-1">0</h4>
+                            <button class="btn-right" onclick="increment112()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Defense Wellness White Tea</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Grande/Venti</h6>
+                            <h6>Caffeine: 40 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement113()">-</button>
+                            <h4 id="count-el42-2">0</h4>
+                            <button class="btn-right" onclick="increment113()">+</button>
+                        </div>
+                    </li>
+                    <!--Citrus Defender White Tea-->
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Citrus Defender White Tea</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Short/Tall</h6>
+                            <h6>Caffeine: 25 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement114()">-</button>
+                            <h4 id="count-el43-1">0</h4>
+                            <button class="btn-right" onclick="increment114()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Citrus Defender White Tea</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Grande/Venti</h6>
+                            <h6>Caffeine: 40 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement115()">-</button>
+                            <h4 id="count-el43-2">0</h4>
+                            <button class="btn-right" onclick="increment115()">+</button>
+                        </div>
+                    </li>
+                    <!--Teavana Youthberry-->
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Teavana Youthberry</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Short/Tall</h6>
+                            <h6>Caffeine: 0-15 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement116()">-</button>
+                            <h4 id="count-el44-1">0</h4>
+                            <button class="btn-right" onclick="increment116()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Teavana Youthberry</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Grande/Venti</h6>
+                            <h6>Caffeine: 15-25 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement117()">-</button>
+                            <h4 id="count-el44-2">0</h4>
+                            <button class="btn-right" onclick="increment117()">+</button>
+                        </div>
+                    </li>
+                    <!--Starbucks Verismo-->
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Starbucks Verismo</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Tall</h6>
+                            <h6>Caffeine: 40-45 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement118()">-</button>
+                            <h4 id="count-el45-1">0</h4>
+                            <button class="btn-right" onclick="increment118()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/starbucks-hotdrinks.png" class="hotdrink">
+                        <div class="coffee-info">
+                            <h4>Starbucks Verismo</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Grande</h6>
+                            <h6>Caffeine: 50-60 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement119()">-</button>
+                            <h4 id="count-el45-2">0</h4>
+                            <button class="btn-right" onclick="increment119()">+</button>
+                        </div>
+                    </li>
+                    <!--Chocolate Cream Cold Brew-->
+                    <li>
+                        <img src="images/mixedwhitebrown.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Chocolate Cream Cold Brew</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Tall</h6>
+                            <h6>Caffeine: 145 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement120()">-</button>
+                            <h4 id="count-el46-1">0</h4>
+                            <button class="btn-right" onclick="increment120()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/mixedwhitebrown.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Chocolate Cream Cold Brew</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Grande</h6>
+                            <h6>Caffeine: 185 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement121()">-</button>
+                            <h4 id="count-el46-2">0</h4>
+                            <button class="btn-right" onclick="increment121()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/mixedwhitebrown.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Chocolate Cream Cold Brew</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Venti</h6>
+                            <h6>Caffeine: 275 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement122()">-</button>
+                            <h4 id="count-el46-3">0</h4>
+                            <button class="btn-right" onclick="increment122()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/mixedwhitebrown.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Chocolate Cream Cold Brew</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Trenta</h6>
+                            <h6>Caffeine: 315 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement123()">-</button>
+                            <h4 id="count-el46-4">0</h4>
+                            <button class="btn-right" onclick="increment123()">+</button>
+                        </div>
+                    </li>
+                    <!--Salted Caramel Cream Cold Brew-->
+                    <li>
+                        <img src="images/mixedwhitebrown.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Salted Caramel Cream Cold Brew</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Tall</h6>
+                            <h6>Caffeine: 145 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement124()">-</button>
+                            <h4 id="count-el47-1">0</h4>
+                            <button class="btn-right" onclick="increment124()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/mixedwhitebrown.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Salted Caramel Cream Cold Brew</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Grande</h6>
+                            <h6>Caffeine: 185 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement125()">-</button>
+                            <h4 id="count-el47-2">0</h4>
+                            <button class="btn-right" onclick="increment125()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/mixedwhitebrown.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Salted Caramel Cream Cold Brew</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Venti</h6>
+                            <h6>Caffeine: 275 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement126()">-</button>
+                            <h4 id="count-el47-3">0</h4>
+                            <button class="btn-right" onclick="increment126()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/mixedwhitebrown.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Salted Caramel Cream Cold Brew</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Trenta</h6>
+                            <h6>Caffeine: 320 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement127()">-</button>
+                            <h4 id="count-el47-4">0</h4>
+                            <button class="btn-right" onclick="increment127()">+</button>
+                        </div>
+                    </li>
+                    <!--Starbucks Cold Brew Coffee-->
+                    <li>
+                        <img src="images/americano.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Starbucks Cold Brew Coffee</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Tall</h6>
+                            <h6>Caffeine: 155 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement128()">-</button>
+                            <h4 id="count-el48-1">0</h4>
+                            <button class="btn-right" onclick="increment128()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/americano.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Starbucks Cold Brew Coffee</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Grande</h6>
+                            <h6>Caffeine: 205 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement129()">-</button>
+                            <h4 id="count-el48-2">0</h4>
+                            <button class="btn-right" onclick="increment129()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/americano.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Starbucks Cold Brew Coffee</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Venti</h6>
+                            <h6>Caffeine: 310 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement130()">-</button>
+                            <h4 id="count-el48-3">0</h4>
+                            <button class="btn-right" onclick="increment130()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/americano.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Starbucks Cold Brew Coffee</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Trenta</h6>
+                            <h6>Caffeine: 360 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement131()">-</button>
+                            <h4 id="count-el48-4">0</h4>
+                            <button class="btn-right" onclick="increment131()">+</button>
+                        </div>
+                    </li>
+                    <!--Vanilla Sweet Cream Cold Brew-->
+                    <li>
+                        <img src="images/mixedwhitebrown.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Vanilla Sweet Cream Cold Brew</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Tall</h6>
+                            <h6>Caffeine: 155 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement132()">-</button>
+                            <h4 id="count-el49-1">0</h4>
+                            <button class="btn-right" onclick="increment132()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/mixedwhitebrown.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Vanilla Sweet Cream Cold Brew</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Grande</h6>
+                            <h6>Caffeine: 205 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement133()">-</button>
+                            <h4 id="count-el49-2">0</h4>
+                            <button class="btn-right" onclick="increment133()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/mixedwhitebrown.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Vanilla Sweet Cream Cold Brew</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Venti</h6>
+                            <h6>Caffeine: 310 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement134()">-</button>
+                            <h4 id="count-el49-3">0</h4>
+                            <button class="btn-right" onclick="increment134()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/mixedwhitebrown.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Vanilla Sweet Cream Cold Brew</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Trenta</h6>
+                            <h6>Caffeine: 360 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement135()">-</button>
+                            <h4 id="count-el49-4">0</h4>
+                            <button class="btn-right" onclick="increment135()">+</button>
+                        </div>
+                    </li>
+                    <!--Starbucks Cold Brew Coffee with Milk-->
+                    <li>
+                        <img src="images/mixedwhitebrown.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Starbucks Cold Brew Coffee with Milk</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Tall</h6>
+                            <h6>Caffeine: 155 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement136()">-</button>
+                            <h4 id="count-el50-1">0</h4>
+                            <button class="btn-right" onclick="increment136()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/mixedwhitebrown.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Starbucks Cold Brew Coffee with Milk</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Grande</h6>
+                            <h6>Caffeine: 205 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement137()">-</button>
+                            <h4 id="count-el50-2">0</h4>
+                            <button class="btn-right" onclick="increment137()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/mixedwhitebrown.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Starbucks Cold Brew Coffee with Milk</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Venti</h6>
+                            <h6>Caffeine: 310 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement138()">-</button>
+                            <h4 id="count-el50-3">0</h4>
+                            <button class="btn-right" onclick="increment138()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/mixedwhitebrown.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Starbucks Cold Brew Coffee with Milk</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Trenta</h6>
+                            <h6>Caffeine: 360 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement139()">-</button>
+                            <h4 id="count-el50-4">0</h4>
+                            <button class="btn-right" onclick="increment139()">+</button>
+                        </div>
+                    </li>
+                    <!--Nitro Cold Brew-->
+                    <li>
+                        <img src="images/mixedwhitebrown.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Nitro Cold Brew</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Tall</h6>
+                            <h6>Caffeine: 215 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement140()">-</button>
+                            <h4 id="count-el51-1">0</h4>
+                            <button class="btn-right" onclick="increment140()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/mixedwhitebrown.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Nitro Cold Brew</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Grande</h6>
+                            <h6>Caffeine: 280 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement141()">-</button>
+                            <h4 id="count-el51-2">0</h4>
+                            <button class="btn-right" onclick="increment141()">+</button>
+                        </div>
+                    </li>
+                    <!--Vanilla Sweet Cream Nitro Cold Brew-->
+                    <li>
+                        <img src="images/mixedbrownwhite.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Vanilla Sweet Cream Nitro Cold Brew</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Tall</h6>
+                            <h6>Caffeine: 200 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement142()">-</button>
+                            <h4 id="count-el52-1">0</h4>
+                            <button class="btn-right" onclick="increment142()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/mixedbrownwhite.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Vanilla Sweet Cream Nitro Cold Brew</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Grande</h6>
+                            <h6>Caffeine: 265 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement143()">-</button>
+                            <h4 id="count-el52-2">0</h4>
+                            <button class="btn-right" onclick="increment143()">+</button>
+                        </div>
+                    </li>
+                    <!--Iced Caffe Americano-->
+                    <li>
+                        <img src="images/americano.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Iced Caffe Americano</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Tall</h6>
+                            <h6>Caffeine: 150 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement144()">-</button>
+                            <h4 id="count-el53-1">0</h4>
+                            <button class="btn-right" onclick="increment144()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/americano.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Iced Caffe Americano</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Grande</h6>
+                            <h6>Caffeine: 225 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement145()">-</button>
+                            <h4 id="count-el53-2">0</h4>
+                            <button class="btn-right" onclick="increment145()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/americano.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Iced Caffe Americano</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Venti</h6>
+                            <h6>Caffeine: 300 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement146()">-</button>
+                            <h4 id="count-el53-3">0</h4>
+                            <button class="btn-right" onclick="increment146()">+</button>
+                        </div>
+                    </li>
+                    <!--Iced Coffee-->
+                    <li>
+                        <img src="images/americano.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Iced Coffee</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Tall</h6>
+                            <h6>Caffeine: 120 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement147()">-</button>
+                            <h4 id="count-el54-1">0</h4>
+                            <button class="btn-right" onclick="increment147()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/americano.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Iced Coffee</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Grande</h6>
+                            <h6>Caffeine: 165 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement148()">-</button>
+                            <h4 id="count-el54-2">0</h4>
+                            <button class="btn-right" onclick="increment148()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/americano.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Iced Coffee</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Venti</h6>
+                            <h6>Caffeine: 235 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement149()">-</button>
+                            <h4 id="count-el54-3">0</h4>
+                            <button class="btn-right" onclick="increment149()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/americano.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Iced Coffee</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Trenta</h6>
+                            <h6>Caffeine: 280 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement150()">-</button>
+                            <h4 id="count-el54-4">0</h4>
+                            <button class="btn-right" onclick="increment150()">+</button>
+                        </div>
+                    </li>
+                    <!--Iced Coffee with Milk-->
+                    <li>
+                        <img src="images/mixedwhitebrown.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Iced Coffee with Milk</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Tall</h6>
+                            <h6>Caffeine: 90 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement151()">-</button>
+                            <h4 id="count-el55-1">0</h4>
+                            <button class="btn-right" onclick="increment151()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/mixedwhitebrown.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Iced Coffee with Milk</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Grande</h6>
+                            <h6>Caffeine: 125 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement152()">-</button>
+                            <h4 id="count-el55-2">0</h4>
+                            <button class="btn-right" onclick="increment152()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/mixedwhitebrown.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Iced Coffee with Milk</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Venti</h6>
+                            <h6>Caffeine: 170 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement153()">-</button>
+                            <h4 id="count-el55-3">0</h4>
+                            <button class="btn-right" onclick="increment153()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/mixedwhitebrown.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Iced Coffee with Milk</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Trenta</h6>
+                            <h6>Caffeine: 190 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement154()">-</button>
+                            <h4 id="count-el55-4">0</h4>
+                            <button class="btn-right" onclick="increment154()">+</button>
+                        </div>
+                    </li>
+                    <!--Iced Espresso-->
+                    <li>
+                        <img src="images/americano.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Iced Espresso</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Solo 0.75 fl oz</h6>
+                            <h6>Caffeine: 75 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement155()">-</button>
+                            <h4 id="count-el56-1">0</h4>
+                            <button class="btn-right" onclick="increment155()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/americano.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Iced Espresso</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Doppio 1.5 fl oz</h6>
+                            <h6>Caffeine: 150 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement156()">-</button>
+                            <h4 id="count-el56-2">0</h4>
+                            <button class="btn-right" onclick="increment156()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/americano.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Iced Espresso</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Triple 2.25 fl oz</h6>
+                            <h6>Caffeine: 225 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement157()">-</button>
+                            <h4 id="count-el56-3">0</h4>
+                            <button class="btn-right" onclick="increment157()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/americano.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Iced Espresso</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Quad 3 fl oz</h6>
+                            <h6>Caffeine: 300 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement158()">-</button>
+                            <h4 id="count-el56-4">0</h4>
+                            <button class="btn-right" onclick="increment158()">+</button>
+                        </div>
+                    </li>
+                    <!--Iced Toasted Vanilla Oatmilk Shaken Espresso-->
+                    <li>
+                        <img src="images/caffelatte.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Iced Toasted Vanilla Oatmilk Shaken Espresso</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Tall</h6>
+                            <h6>Caffeine: 170 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement159()">-</button>
+                            <h4 id="count-el57-1">0</h4>
+                            <button class="btn-right" onclick="increment159()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/caffelatte.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Iced Toasted Vanilla Oatmilk Shaken Espresso</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Grande</h6>
+                            <h6>Caffeine: 255 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement160()">-</button>
+                            <h4 id="count-el57-2">0</h4>
+                            <button class="btn-right" onclick="increment160()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/caffelatte.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Iced Toasted Vanilla Oatmilk Shaken Espresso</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Venti</h6>
+                            <h6>Caffeine: 340 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement161()">-</button>
+                            <h4 id="count-el57-3">0</h4>
+                            <button class="btn-right" onclick="increment161()">+</button>
+                        </div>
+                    </li>
+                    <!--Iced Brown Sugar Oatmilk Shaken Espresso-->
+                    <li>
+                        <img src="images/caffelatte.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Iced Brown Sugar Oatmilk Shaken Espresso</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Tall</h6>
+                            <h6>Caffeine: 170 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement162()">-</button>
+                            <h4 id="count-el58-1">0</h4>
+                            <button class="btn-right" onclick="increment162()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/caffelatte.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Iced Brown Sugar Oatmilk Shaken Espresso</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Grande</h6>
+                            <h6>Caffeine: 255 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement163()">-</button>
+                            <h4 id="count-el58-2">0</h4>
+                            <button class="btn-right" onclick="increment163()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/caffelatte.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Iced Brown Sugar Oatmilk Shaken Espresso</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Venti</h6>
+                            <h6>Caffeine: 340 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement164()">-</button>
+                            <h4 id="count-el58-3">0</h4>
+                            <button class="btn-right" onclick="increment164()">+</button>
+                        </div>
+                    </li>
+                    <!--Iced Chocolate Almondmilk Shaken Espresso-->
+                    <li>
+                        <img src="images/caffelatte.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Iced Chocolate Almondmilk Shaken Espresso</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Tall</h6>
+                            <h6>Caffeine: 170 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement165()">-</button>
+                            <h4 id="count-el59-1">0</h4>
+                            <button class="btn-right" onclick="increment165()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/caffelatte.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Iced Chocolate Almondmilk Shaken Espresso</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Grande</h6>
+                            <h6>Caffeine: 255 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement166()">-</button>
+                            <h4 id="count-el59-2">0</h4>
+                            <button class="btn-right" onclick="increment166()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/caffelatte.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Iced Chocolate Almondmilk Shaken Espresso</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Venti</h6>
+                            <h6>Caffeine: 340 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement167()">-</button>
+                            <h4 id="count-el59-3">0</h4>
+                            <button class="btn-right" onclick="increment167()">+</button>
+                        </div>
+                    </li>
+                    <!--Iced Shaken Espresso-->
+                    <li>
+                        <img src="images/caffelatte.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Iced Shaken Espresso</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Tall</h6>
+                            <h6>Caffeine: 150 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement168()">-</button>
+                            <h4 id="count-el60-1">0</h4>
+                            <button class="btn-right" onclick="increment168()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/caffelatte.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Iced Shaken Espresso</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Grande</h6>
+                            <h6>Caffeine: 225 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement169()">-</button>
+                            <h4 id="count-el60-2">0</h4>
+                            <button class="btn-right" onclick="increment169()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/caffelatte.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Iced Shaken Espresso</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Venti</h6>
+                            <h6>Caffeine: 300 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement170()">-</button>
+                            <h4 id="count-el60-3">0</h4>
+                            <button class="btn-right" onclick="increment170()">+</button>
+                        </div>
+                    </li>
+                    <!--Iced Flat White-->
+                    <li>
+                        <img src="images/caffelatte.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Iced Flat White</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Tall</h6>
+                            <h6>Caffeine: 90 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement171()">-</button>
+                            <h4 id="count-el61-1">0</h4>
+                            <button class="btn-right" onclick="increment171()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/caffelatte.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Iced Flat White</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Grande</h6>
+                            <h6>Caffeine: 130 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement172()">-</button>
+                            <h4 id="count-el61-2">0</h4>
+                            <button class="btn-right" onclick="increment172()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/caffelatte.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Iced Flat White</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Venti</h6>
+                            <h6>Caffeine: 175 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement173()">-</button>
+                            <h4 id="count-el61-3">0</h4>
+                            <button class="btn-right" onclick="increment173()">+</button>
+                        </div>
+                    </li>
+                    <!--Iced Honey Almondmilk Flat White-->
+                    <li>
+                        <img src="images/vanilla.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Iced Honey Almondmilk Flat White</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Tall</h6>
+                            <h6>Caffeine: 150 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement174()">-</button>
+                            <h4 id="count-el62-1">0</h4>
+                            <button class="btn-right" onclick="increment174()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/vanilla.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Iced Honey Almondmilk Flat White</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Grande</h6>
+                            <h6>Caffeine: 225 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement175()">-</button>
+                            <h4 id="count-el62-2">0</h4>
+                            <button class="btn-right" onclick="increment175()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/vanilla.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Iced Honey Almondmilk Flat White</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Venti</h6>
+                            <h6>Caffeine: 300 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement176()">-</button>
+                            <h4 id="count-el62-3">0</h4>
+                            <button class="btn-right" onclick="increment176()">+</button>
+                        </div>
+                    </li>
+                    <!--Starbucks Reserve Iced Latte-->
+                    <li>
+                        <img src="images/caffelatte.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Starbucks Reserve Iced Latte</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Tall/Grande</h6>
+                            <h6>Caffeine: 135 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement177()">-</button>
+                            <h4 id="count-el63-1">0</h4>
+                            <button class="btn-right" onclick="increment177()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/caffelatte.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Starbucks Reserve Iced Latte</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Venti</h6>
+                            <h6>Caffeine: 265 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement179()">-</button>
+                            <h4 id="count-el63-3">0</h4>
+                            <button class="btn-right" onclick="increment179()">+</button>
+                        </div>
+                    </li>
+                    <!--Starbucks Reserve Iced Hazelnut Bianco Latte-->
+                    <li>
+                        <img src="images/caffelatte.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Starbucks Reserve Iced Hazelnut Bianco Latte</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Tall</h6>
+                            <h6>Caffeine: 85 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement180()">-</button>
+                            <h4 id="count-el64-1">0</h4>
+                            <button class="btn-right" onclick="increment180()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/caffelatte.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Starbucks Reserve Iced Hazelnut Bianco Latte</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Grande</h6>
+                            <h6>Caffeine: 165 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement181()">-</button>
+                            <h4 id="count-el64-2">0</h4>
+                            <button class="btn-right" onclick="increment181()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/caffelatte.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Starbucks Reserve Iced Hazelnut Bianco Latte</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Venti</h6>
+                            <h6>Caffeine: 200 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement182()">-</button>
+                            <h4 id="count-el64-3">0</h4>
+                            <button class="btn-right" onclick="increment182()">+</button>
+                        </div>
+                    </li>
+                    <!--Iced Caffe Latte-->
+                    <li>
+                        <img src="images/caffelatte.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Iced Caffe Latte</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Tall</h6>
+                            <h6>Caffeine: 75 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement183()">-</button>
+                            <h4 id="count-el65-1">0</h4>
+                            <button class="btn-right" onclick="increment183()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/caffelatte.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Iced Caffe Latte</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Grande</h6>
+                            <h6>Caffeine: 150 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement184()">-</button>
+                            <h4 id="count-el65-2">0</h4>
+                            <button class="btn-right" onclick="increment184()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/caffelatte.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Iced Caffe Latte</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Venti</h6>
+                            <h6>Caffeine: 225 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement185()">-</button>
+                            <h4 id="count-el65-3">0</h4>
+                            <button class="btn-right" onclick="increment185()">+</button>
+                        </div>
+                    </li>
+                    <!--Iced Cinnamon Dolce Latte-->
+                    <li>
+                        <img src="images/caffelatte.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Iced Cinnamon Dolce Latte</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Tall</h6>
+                            <h6>Caffeine: 75 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement186()">-</button>
+                            <h4 id="count-el66-1">0</h4>
+                            <button class="btn-right" onclick="increment186()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/caffelatte.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Iced Cinnamon Dolce Latte</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Grande</h6>
+                            <h6>Caffeine: 150 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement187()">-</button>
+                            <h4 id="count-el66-2">0</h4>
+                            <button class="btn-right" onclick="increment187()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/caffelatte.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Iced Cinnamon Dolce Latte</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Venti</h6>
+                            <h6>Caffeine: 225 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement188()">-</button>
+                            <h4 id="count-el66-3">0</h4>
+                            <button class="btn-right" onclick="increment188()">+</button>
+                        </div>
+                    </li>
+                    <!--Iced Starbucks Blonde Vanilla Latte-->
+                    <li>
+                        <img src="images/vanilla.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Iced Starbucks Blonde Vanilla Latte</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Tall</h6>
+                            <h6>Caffeine: 85 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement189()">-</button>
+                            <h4 id="count-el67-1">0</h4>
+                            <button class="btn-right" onclick="increment189()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/vanilla.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Iced Starbucks Blonde Vanilla Latte</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Grande</h6>
+                            <h6>Caffeine: 170 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement190()">-</button>
+                            <h4 id="count-el67-2">0</h4>
+                            <button class="btn-right" onclick="increment190()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/vanilla.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Iced Starbucks Blonde Vanilla Latte</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Venti</h6>
+                            <h6>Caffeine: 255 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement191()">-</button>
+                            <h4 id="count-el67-3">0</h4>
+                            <button class="btn-right" onclick="increment191()">+</button>
+                        </div>
+                    </li>
+                    <!--Iced Caramel Macchiato-->
+                    <li>
+                        <img src="images/mixedbrownwhite.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Iced Caramel Macchiato</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Tall</h6>
+                            <h6>Caffeine: 75 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement192()">-</button>
+                            <h4 id="count-el68-1">0</h4>
+                            <button class="btn-right" onclick="increment192()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/mixedbrownwhite.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Iced Caramel Macchiato</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Grande</h6>
+                            <h6>Caffeine: 150 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement193()">-</button>
+                            <h4 id="count-el68-2">0</h4>
+                            <button class="btn-right" onclick="increment193()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/mixedbrownwhite.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Iced Caramel Macchiato</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Venti</h6>
+                            <h6>Caffeine: 225 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement194()">-</button>
+                            <h4 id="count-el68-3">0</h4>
+                            <button class="btn-right" onclick="increment194()">+</button>
+                        </div>
+                    </li>
+                    <!--Iced White Chocolate Mocha-->
+                    <li>
+                        <img src="images/vanilla.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Iced White Chocolate Mocha</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Tall</h6>
+                            <h6>Caffeine: 75 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement195()">-</button>
+                            <h4 id="count-el69-1">0</h4>
+                            <button class="btn-right" onclick="increment195()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/vanilla.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Iced White Chocolate Mocha</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Grande</h6>
+                            <h6>Caffeine: 150 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement196()">-</button>
+                            <h4 id="count-el69-2">0</h4>
+                            <button class="btn-right" onclick="increment196()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/vanilla.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Iced White Chocolate Mocha</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Venti</h6>
+                            <h6>Caffeine: 225 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement197()">-</button>
+                            <h4 id="count-el69-3">0</h4>
+                            <button class="btn-right" onclick="increment197()">+</button>
+                        </div>
+                    </li>
+                    <!--Iced Caffe Mocha-->
+                    <li>
+                        <img src="images/chocolate.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Iced Caffe Mocha</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Tall</h6>
+                            <h6>Caffeine: 95 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement198()">-</button>
+                            <h4 id="count-el70-1">0</h4>
+                            <button class="btn-right" onclick="increment198()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/chocolate.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Iced Caffe Mocha</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Grande</h6>
+                            <h6>Caffeine: 175 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement199()">-</button>
+                            <h4 id="count-el70-2">0</h4>
+                            <button class="btn-right" onclick="increment199()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/chocolate.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Iced Caffe Mocha</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Venti</h6>
+                            <h6>Caffeine: 265 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement200()">-</button>
+                            <h4 id="count-el70-3">0</h4>
+                            <button class="btn-right" onclick="increment200()">+</button>
+                        </div>
+                    </li>
+                    <!--Starbucks Reserve Iced Dark Chocolate Mocha-->
+                    <li>
+                        <img src="images/chocolate.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Starbucks Reserve Iced Dark Chocolate Mocha</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Tall/Grande</h6>
+                            <h6>Caffeine: 135 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement201()">-</button>
+                            <h4 id="count-el71-1">0</h4>
+                            <button class="btn-right" onclick="increment201()">+</button>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/chocolate.png" class="colddrink">
+                        <div class="coffee-info">
+                            <h4>Starbucks Reserve Iced Dark Chocolate Mocha</h4>
+                            <h5>Starbucks</h5>
+                            <h6>Size: Venti</h6>
+                            <h6>Caffeine: 265 mg</h6>
+                        </div>
+                        <div class="increment-btns">
+                            <button class="btn-left" onclick="decrement202()">-</button>
+                            <h4 id="count-el71-2">0</h4>
+                            <button class="btn-right" onclick="increment202()">+</button>
+                        </div>
+                    </li>
+                    </ul>
+                </div>
+
+                <div></div>
+            </div>
+        </div>
+        <script src="catalog.js"></script>
+    </body>
+
+</html>
